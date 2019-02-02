@@ -9,7 +9,7 @@ function transferAndData(address _to, uint _value, string _data)</i><br>
 
 Incorporates a new feature:<br>
 <i>// Transfer any ERC token with data and signature<br>
-function transferTokenData(address token, address _to, uint _value, string _data)<i><br>
+function transferTokenData(address token, address _to, uint _value, string _data)</i><br>
   
   Smart Contract:<br>
   https://etherscan.io/address/0xaa001c4cc0f1d15b11ce5baf410aa93b9ef96ecc<br><br>
