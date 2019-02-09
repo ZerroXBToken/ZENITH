@@ -18,7 +18,7 @@ function transferTokenData(address token, address _to, uint _value, string _data
   https://etherscan.io/address/0x8C1ec84943CF6D70E2C92Ec81f1cbC320D5Cd2a8<br>
 <i>// Transfer any ERC token with data and signature / or multi transfer with data and signature<br> 
 //remember to call Token(address).approve(this, amount) or this contract will not be able to do the transfer on your behalf.<br>
-function TransferTokenData(address _token, address[] addresses, uint amount, string _data) public</i><br><br>
+function TransferTokenData(address _token, address[] addresses, uint amount, string _data) public</i><br>
 
 <i>// Transfer Ether with data and signature / or multi transfer with data and signature <br>
 function SendEthData(address[] addresses, string _data) public payable </i><br><br>
