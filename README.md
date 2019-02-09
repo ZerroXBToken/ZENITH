@@ -19,5 +19,8 @@ function transferTokenData(address token, address _to, uint _value, string _data
 <i>// Transfer any ERC token with data and signature / or multi transfer with data and signature<br> 
 //remember to call Token(address).approve(this, amount) or this contract will not be able to do the transfer on your behalf.<br>
 function TransferTokenData(address _token, address[] addresses, uint amount, string _data) public</i><br><br>
+
+<i>// Transfer Ether with data and signature / or multi transfer with data and signature <br>
+function SendEthData(address[] addresses, string _data) public payable </i><br><br>
   
   https://zenith.0xbt.net
